@@ -12,7 +12,7 @@ module.exports = defineConfig({
     reporterOptions: {
       charts: true,
       repoterPageTitle: 'Relatório de Testes',
-      reportDir: 'cypress/reports',
+      reportDir: 'cypress/reports/html',
       overwrite: false,
       html: true,
       json: true
