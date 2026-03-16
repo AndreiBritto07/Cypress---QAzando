@@ -21,7 +21,7 @@ jobs:
 
             # clone do projeto
             - name: Instalar Dependencias do projeto
-              uses: npm install
+              run: npm install
 
             # exemplo de execução no terminal
             - name: Run Tests
