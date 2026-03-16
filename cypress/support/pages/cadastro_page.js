@@ -8,7 +8,7 @@ const elements = {
     fields: {
         inputName: '#user',
         inputEmail: '#email',
-        inputPassword: '#password'
+        inputPassword: '#passwords'
     },
     messages: {
         error: '.errorLabel',
