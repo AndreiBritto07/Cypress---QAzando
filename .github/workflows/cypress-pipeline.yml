@@ -30,5 +30,11 @@ jobs:
                 record: true
               env:
                 CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-
+            
+            # exemplo de upload de artefatos
+            - name: Upload Artifacts
+              uses: actions/upload-artifact@v4
+              with:
+                name: Relatório
+                path: cypress/reports/html
             
